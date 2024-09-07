@@ -1,1 +1,98 @@
-<p>A HTML file</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>pinkcostmetics.com</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: arial;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: black;
+      color: white;
+    }
+
+    .whole-box {
+      margin-top: 100px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .topic {
+      font-family: arial;
+      font-size: 50px;
+      font-weight: 900;
+    }
+
+    .names {
+      display: flex;
+      margin-bottom: 20px;
+    }
+
+
+
+    .first-name {
+      margin-right: 10px;
+    }
+
+    .name-search-bar {
+      height: 30px;
+      width: 300px;
+      padding: 0 10px 0 10px;
+    }
+
+    .email {
+      margin-bottom: 20px;
+    }
+
+    .email-search-bar {
+      width: 637px;
+      padding: 10px;
+      border: 2px solid black;
+    }
+
+    .issue-search-bar {
+      width: 637px;
+      height: 70px;
+      padding: 10px; 
+    }
+
+  </style>
+</head>
+<body>
+
+  <div class="whole-box">
+    <div class="topic">
+      <div class="topic1">Information</div>
+    </div>
+  
+    <div class="names">
+      <div class="first-name">
+        <div>First Name*</div>
+        <input class="name-search-bar" type="text" placeholder="">
+      </div>
+  
+      <div class="last-name">
+        <div>Last Name</div>
+        <input class="name-search-bar" type="text" placeholder="">
+      </div>
+    </div>
+  
+    <div class="email">
+      <div>Email Address*</div>
+      <input class="email-search-bar" type="text" placeholder="">
+    </div>
+  
+    <div class="issue">
+      <div>Tell us about you*</div>
+      <textarea class="issue-search-bar"></textarea>
+    </div>
+  </div>
+  
+</body>
+</html>
